@@ -1,0 +1,8 @@
+.gearList{
+    width: 100%;
+    justify-content: center;
+    display: block;
+    flex-wrap: wrap;
+    margin: 15px 0;
+    transform: translateX(17%);
+}

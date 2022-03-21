@@ -1,0 +1,29 @@
+.weaponDamageCard{
+    font-size: 1rem;
+    border: 1px solid var(--weapons-weaponDamageCard-border-color);
+}
+
+.range{
+    width: 100%;
+    text-align:center;
+    border-bottom: 1px solid var(--weapons-weaponDamageCard-border-color);
+    color: var(--weapons-weaponItem-weaponTextColor);
+}
+
+.damageInfo{
+    display: flex;
+}
+
+.damageType{
+    width: 100%;
+    text-align:center;
+    padding:0.5rem;
+    display: flex;
+    flex-direction: column;
+    color: var(--weapons-weaponItem-weaponTextColor);
+}
+
+.damageValue{
+    font-size: 1rem;
+    color: var(--weapons-weaponItem-weaponTextColor);
+}

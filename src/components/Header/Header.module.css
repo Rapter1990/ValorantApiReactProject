@@ -1,0 +1,86 @@
+header {
+    display: flex;
+    height: 70px;
+    width: 100vw;
+    background-color: var(--header-background-color);
+    justify-content: space-between;
+    padding: 0 100px;
+    position: sticky;
+    top: 0;
+}
+
+header .logo a {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    color: var(--header-logo-color);
+}
+
+header .logo a > h1{
+    margin-left: 10px;
+}
+
+header .logo img {
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+
+header nav .navList {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--header-navlist-color);
+  }
+
+header nav .navList .navItem {
+    color: var(--header-navlist-navitem-color);
+}
+
+header nav .navList .navItem .navLink {
+    color: var(--header-navlist-navitem-navlink-color);
+    margin-right: 20px;
+    padding: 10px 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+header nav .navList .navItem .navLink:hover {
+    background-color: var(--header-navlist-navitem-navlink-color);
+    color: var(--header-navlist-navitem-navlink-text-color);
+}
+
+header nav .navList .navItem .activeNav {
+    background-color: var(--header-navlist-navitem-navlink-activenav-color);
+    margin-right: 20px;
+    padding: 10px 10px;
+    font-size: 1rem;
+    color: var(--header-navlist-navitem-navlink-activenav-text-color);
+    border-radius: 10px;
+}
+
+header nav .languageMenu {
+    width: 100%;
+    min-width: 15ch;
+    max-width: 30ch;
+    border: 1px solid var(--header-languagemenu-border-color);
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #fff;
+    line-height: 1.1;
+    background-color: var(--header-languagemenu-background-color);
+}
+
+header nav .languageMenu option:hover {
+    border-color: var(--header-languagemenu-background-color);
+}
+
+header nav .navList .toggleItem{
+    margin-left: 20px;
+}

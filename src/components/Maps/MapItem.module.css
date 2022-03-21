@@ -1,0 +1,35 @@
+.mapImage{
+    height: 570px;
+    width: 90%;
+    object-fit: cover;
+}
+
+.mapInfo{
+   width: 200px;
+   display: flex;
+   flex-direction: column;
+   background-color:var(--maps-mapItem-mapInfo);
+   padding: 2rem;
+   bottom: 0px;
+}
+
+.mapName{
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -45%;
+    width: 90%;
+    border-radius: 10px;
+    background: var(--maps-mapItem-mapName-background-color);
+    color: var(--maps-mapItem-mapName-text-color);
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    opacity: 0.25;
+    transition: opacity .35s ease-in-out;
+}
+
+.mapName:hover {
+    opacity: 1;
+}

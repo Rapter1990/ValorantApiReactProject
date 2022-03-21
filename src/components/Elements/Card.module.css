@@ -1,0 +1,50 @@
+.cardBody {
+    max-width: 15rem;
+    min-width: 15rem;
+    border-radius: 4px;
+    color: #fff;
+    margin: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+    word-wrap: break-word;
+}
+
+.cardBody:hover {
+    box-shadow: 0 0 4em 0px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+}
+
+.cardBody:active {
+    transform: scale(1.01) translateY(0.2rem);
+}
+  
+.iconWrapper{
+    background-color: var(--homePage-iconWrapper-background-color);
+    min-height: 8.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon { 
+    font-size: 3.5em; 
+    color: #ff4655;
+}
+
+.textWrapper {
+    padding: 0.6em;
+    font-family: 'Lato';
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 0 0 4px 4px;
+}
+  
+.textWrapperTitle {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 1.2em;
+}
+
+.textWrapperDetails {
+    font-size: 0.8em;
+    line-height: 1.7em;
+}

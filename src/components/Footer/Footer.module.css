@@ -1,0 +1,28 @@
+footer {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: var(--footer-background-color);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: var(--footer-text-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerInfo {
+  float: left;
+ }
+ 
+.footerIcon {
+  float: right;
+  margin-right: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.iconStyle{
+  color: var(--footer-icon-color);
+}

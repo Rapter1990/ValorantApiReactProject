@@ -1,0 +1,48 @@
+.weaponItemCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--weapons-weaponItem-weaponCard-background-color);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px var(--weapons-weaponItem-weaponCard-box-shadow-color);
+    padding: 5px;
+    margin: 5px;
+    width: 580px;
+}
+
+.weaponItemheading{
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px var(--weapons-weaponItem-weaponCard-box-shadow-color);
+    background-color: var(--weapons-weaponItem-weaponCard-weaponHeading-text-color);
+    color: var(--weapons-weaponItem-weaponCard-text-color);
+}
+
+.weaponItemImage{
+    height: 120px;
+    margin: 20px 20px;
+    object-fit: contain;
+}
+
+.weaponDamageContainer{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+}
+
+.weaponItemDisplayNameTextColor{
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px var(--weapons-weaponItem-itemCard-box-shadow-color);
+    background-color: var(--weapons-weaponItem-itemheading);
+    color: var(--weaponItem-weaponItem-itemCard-text-color);
+    display: inline-block;
+}
+
+.weaponItemInfoColor{
+    color: var(--weapons-weaponItem-weaponTextColor);
+}
+

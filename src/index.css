@@ -11,3 +11,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --header-background-color: white;
+  --header-logo-color: #ff4655;
+  --header-navlist-color: #ff4655;
+  --header-navlist-navitem-color: #ff4655;
+  --header-navlist-navitem-navlink-color: #ff4655;
+  --header-navlist-navitem-navlink-text-color: #fff;
+  --header-navlist-navitem-navlink-activenav-color:#ff4655;
+  --header-navlist-navitem-navlink-activenav-text-color: #fff;
+  --header-languagemenu-border-color: #ff4655;
+  --header-languagemenu-background-color: #ff4655;
+
+  --footer-background-color : rgb(78, 40, 40);
+  --footer-text-color: white;
+  --footer-icon-color: white; 
+
+  --agent-agentItem-itemCard-background-color: #fff;
+  --agent-agentItem-itemCard-text-color: #fff;
+  --agent-agentItem-itemCard-box-shadow-color : rgba(0, 0, 0, 0.1);
+  --agent-agentItem-itemheading: #ff4655;
+
+  --gear-gearItem-background-color:#fff;
+  --gear-gearItem-itemCard-box-shadow-color : rgba(0, 0, 0, 0.1);
+  --gear-gearItem-itemImage-background-color: #ff4655;
+  --gear-gearItem-gearTextColor: #000;
+
+  --maps-mapItem-mapInfo: #0E1921;
+  --maps-mapItem-mapName-background-color: #fe4456;
+  --maps-mapItem-mapName-text-color: #fff;
+
+  --weapons-weaponItem-weaponCard-background-color :#fff;
+  --weapons-weaponItem-weaponCard-box-shadow-color : rgba(0, 0, 0, 0.1);
+  --weapons-weaponItem-weaponCard-weaponHeading-text-color: #fe4456;
+  --weapons-weaponItem-weaponCard-text-color: #fff;
+  --weapons-weaponDamageCard-border-color: #ff4655;
+  --weapons-weaponItem-itemCard-box-shadow-color : rgba(0, 0, 0, 0.1);
+  --weapons-weaponItem-itemheading: #ff4655;
+  --weaponItem-weaponItem-itemCard-text-color: #fff;
+  --weapons-weaponItem-weaponTextColor:#000;
+
+  --agentDetail-agentDetail-text-color: #0E1921;
+  --agentDetail-agentDetailImage-background-color: #fff;
+  --agentDetail-agentDetailTitle-image-background-color: #ff4655;
+  --agentDetail-agentDetailImage-button-background-color: #ff4655;
+  --agentDetail-agentAbility-image-background-color: #ff4655;
+
+  --homePage-iconWrapper-background-color: #fff;
+
+}
+
+[data-theme='dark'] {
+  --header-background-color: #000;
+  --header-languagemenu-background-color: #000;
+  --footer-background-color: #000;
+  --agent-agentItem-itemCard-background-color:#000;
+  --gear-gearItem-background-color: #000;
+  --gear-gearItem-gearTextColor: #fff;
+  --weapons-weaponItem-weaponCard-background-color: #000;
+  --weapons-weaponItem-weaponTextColor: #fff;
+
+  --agentDetail-agentDetail-text-color: #ece8e1;
+  --agentDetail-agentDetailImage-background-color: #0f1923;
+  --agentDetail-agentDetailTitle-image-background-color: none;
+  --agentDetail-agentDetailImage-button-background-color: #ff4655;
+  --agentDetail-agentAbility-image-background-color: none;
+
+  --homePage-iconWrapper-background-color: #000;
+}

@@ -1,0 +1,74 @@
+.agentDetailCard{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+.agentDetail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    box-sizing: content-box;
+    font-size: 14px;
+    padding: 25px 25px 20px 0;
+    color: var(--agentDetail-agentDetail-text-color);
+    background-color: var(--agentDetail-agentDetailImage-background-color);
+    overflow: hidden;
+}
+
+.agentDetailImage {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+
+.agentDetailImage > button {
+    width: 100px;
+    height: 40px;
+    background-color: var(--agentDetail-agentDetailImage-button-background-color);
+    border: none;
+    cursor: pointer;
+}
+
+.agentDetailImage > button:before {
+    content: "🔊  ";
+}
+
+.agentDetailTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.agentDetailTitle > img {
+    background-color: var(--agentDetail-agentDetailTitle-image-background-color);
+}
+
+.agentAbilities {
+    display: flex;
+    margin-top: 10px;
+    align-items: stretch;
+}
+  
+.agentAbility > img {
+    margin: 1em 0;
+    object-fit: cover;
+    background-color: var(--agentDetail-agentAbility-image-background-color);
+}
+
+.agentAbility{
+    width: 100%;
+    margin: 5px 5px;
+}
+
+.agentAbilityInfo{
+    margin: 5px 5px;
+}
+
