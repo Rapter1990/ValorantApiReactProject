@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Valorant API React Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="" alt="Main Information" width="800" height="500">
 
-## Available Scripts
+### 📖 Information
 
-In the project directory, you can run:
+<ul style="list-style-type:disc">
+  <li>With the usage of Valorant API from https://valorant-api.com/ , thie project is made of different kinds of information about Valorant Game</li>
+  <li>Here is the explanation of the project
+      <ul>
+        <li>General information about the game in the home page</li>
+        <li>General information about agents with their characteristic features</li>
+        <li>General information about gears which agents can wear</li>
+        <li>General information about maps</li>
+        <li>General information about weapons which agents can buy before starting the game</li>
+        <li>Adding language feaetures to convert all information to defined one through i18next</li>
+        <li>Adding toggle button to change the theme of the webiste (dark mode, light mode) </li>
+      </ul>
+  </li>
+</ul>
 
-### `npm start`
+### 🔨 Run the App
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<b>1 )</b> Download your project from this link `https://github.com/Rapter1990/ValorantApiReactProject`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<b>2 )</b> Go to the project's home directory :  `cd ValorantApiReactProject`
 
-### `npm test`
+<b>3 )</b> Install all libraries used in the project through this command `npm install`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<b>4 )</b> Run the project though this command `npm start`
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
