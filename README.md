@@ -1,6 +1,6 @@
 # Valorant API React Project
 
-<img src="" alt="Main Information" width="800" height="500">
+<img src="screenshots/main.PNG" alt="Main Information" width="800" height="500">
 
 ### 📖 Information
 
@@ -48,16 +48,4 @@
     <img src ="screenshots/6.PNG">
     <p> Figure 7 </p>
     <img src ="screenshots/7.PNG">
-    <p> Figure 8 </p>
-    <img src ="screenshots/8.PNG">
-    <p> Figure 9 </p>
-    <img src ="screenshots/9.PNG">
-    <p> Figure 10 </p>
-    <img src ="screenshots/10.PNG">
-    <p> Figure 11 </p>
-    <img src ="screenshots/11.PNG">
-    <p> Figure 12 </p>
-    <img src ="screenshots/12.PNG">
-    <p> Figure 13 </p>
-    <img src ="screenshots/13.PNG">
 </details>
