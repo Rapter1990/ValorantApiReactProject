@@ -1,6 +1,6 @@
 # Valorant API React Project
 
-<img src="screenshots/main.PNG" alt="Main Information" width="800" height="500">
+<img src="screenshots/main.PNG" alt="Main Information" width="800" height="400">
 
 ### 📖 Information
 
@@ -13,7 +13,7 @@
         <li>General information about gears which agents can wear</li>
         <li>General information about maps</li>
         <li>General information about weapons which agents can buy before starting the game</li>
-        <li>Adding language feaetures to convert all information to defined one through i18next</li>
+        <li>Adding language feaetures to convert all information to selected language through i18next</li>
         <li>Adding toggle button to change the theme of the webiste (dark mode, light mode) </li>
       </ul>
   </li>
