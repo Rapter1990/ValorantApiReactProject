@@ -10,7 +10,7 @@ const Maps = () => {
 
   useEffect(()=> {
     fetchMaps(lang);
-  }, [fetchMaps,lang])
+  }, [lang])
 
   return (
     <div>

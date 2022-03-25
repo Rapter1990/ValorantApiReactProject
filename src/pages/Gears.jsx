@@ -10,7 +10,7 @@ const Gears = () => {
 
   useEffect(()=> {
     fetchGears(lang);
-  }, [fetchGears,lang])
+  }, [lang])
 
   return (
     <div>

@@ -10,7 +10,7 @@ const Weapons = () => {
   
   useEffect(()=> {
     fetchWeapons(lang);
-  }, [fetchWeapons,lang])
+  }, [lang])
 
   return (
     <div>
