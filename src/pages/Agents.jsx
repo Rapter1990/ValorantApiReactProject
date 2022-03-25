@@ -10,7 +10,7 @@ const Agents = () => {
 
   useEffect(()=> {
     fetchAgents(lang);
-  }, [fetchAgents,lang])
+  }, [lang])
 
   return (
     <div>
