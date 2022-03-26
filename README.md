@@ -21,10 +21,8 @@ Provided features.
 through [start.sh]()/[start.bat]()
 - `./build.sh` (for [start.sh]())
 - `./build.bat` (for [start.bat]())
-
-<br>
-or
 <br/>
+or
 - `git clone https://github.com/Rapter1990/ValorantApiReactProject.git`
 - `cd ValorantApiReactProject`
 - `npm install`
