@@ -3,7 +3,7 @@ import APIContext from '../../context/APIContext'
 import GearItem from './GearItem'
 import styles from './GearList.module.css';
 
-const GearList = () => {
+export default function GearList() {
     const { gears } = useContext(APIContext)
     return (
       <div className={styles.gearList}>
@@ -13,5 +13,3 @@ const GearList = () => {
       </div>
     )
 }
-
-export default GearList

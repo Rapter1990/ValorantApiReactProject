@@ -2,10 +2,8 @@ import React from 'react'
 import styles from './WeaponDamageCard.module.css';
 import { useTranslation } from 'react-i18next';
 
-const WeaponDamageCard = ({damageRange}) => {
-
+export default function WeaponDamageCard({damageRange}) {
   const { t } = useTranslation();
-
   return (
     <div className={styles.weaponDamageCard}>
       <p className={styles.range}>
@@ -35,5 +33,3 @@ const WeaponDamageCard = ({damageRange}) => {
     </div>
   );
 }
-
-export default WeaponDamageCard;

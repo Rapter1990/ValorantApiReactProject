@@ -7,8 +7,7 @@ import { useTranslation } from 'react-i18next';
 
 const baseURL = "https://valorant-api.com/v1";
 
-const AgentDetail = () => {
-
+export default function AgentDetail() {
   const { t } = useTranslation();  
   const { uuid } = useParams();
   const [agent,setAgent] = useState({});  
@@ -25,15 +24,10 @@ const AgentDetail = () => {
         setLoading(false);
   }
 
-  useEffect(()=>{
-    fetchAgent(uuid, lang);
-  }, [lang]);
-
+  useEffect(() => fetchAgent(uuid, lang), [lang]);
   console.log(agent);
 
-  if(isLoading){
-    return <h1>Loading...</h1>
-  }
+  if (isLoading) return <h1>Loading...</h1>
 
   return (
     <div className={styles.agentDetailCard}>
@@ -77,7 +71,5 @@ const AgentDetail = () => {
             </div>
         </div>
     </div> 
-  )
+  );
 }
-
-export default AgentDetail;

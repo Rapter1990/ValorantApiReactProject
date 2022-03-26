@@ -5,7 +5,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import MapItem from './MapItem';
 
-const MapList = () => {
+export default function MapList() {
   const { maps } = useContext(APIContext);
   
   return (
@@ -24,5 +24,3 @@ const MapList = () => {
     </div>
   )
 }
-
-export default MapList;

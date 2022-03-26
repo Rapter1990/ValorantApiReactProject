@@ -9,29 +9,23 @@ import { useTranslation } from 'react-i18next';
 import axios from 'axios';
 
 
-const Header = ({theme , switchTheme }) => {
+export default function Header({theme , switchTheme }) {
+    const [lang, setLang] = useContext(LanguageContext);
+    const { i18n, t } = useTranslation();
 
-  const [lang, setLang] = useContext(LanguageContext);
-  const { i18n, t } = useTranslation();
-
-  let location = useLocation();
-  let [pathname, setPathname] = useState("");
+    let location = useLocation();
+    let [pathname, setPathname] = useState("");
   
-  useEffect(() => {
-    setPathname(location.pathname)
-  }, [location]);
+    useEffect(() => setPathname(location.pathname), [location]);
+
+    const changeLanguage = language => axios.defaults.headers['accept-language'] = language;
+    const onChangeLanguage = language => {
+        i18n.changeLanguage(language);
+        changeLanguage(language);
+    };
 
 
-  const onChangeLanguage = language => {
-    i18n.changeLanguage(language);
-    changeLanguage(language);
-  };
-
-  const changeLanguage = language => {
-    axios.defaults.headers['accept-language'] = language;
-  };
-
-  return(
+    return(
       <header>
           <div className={styles.logo}>
             <Link to='/'>
@@ -107,7 +101,6 @@ const Header = ({theme , switchTheme }) => {
             </ul>
         </nav>
       </header>
-  );
+    );
 };
 
-export default Header;

@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './AgentItem.module.css'
 import { Link } from "react-router-dom";
 
-const AgentItem = ({ agent }) => {
+export default function AgentItem({ agent }) {
   return (
     <Link to={`/agents/detail/${agent.uuid}`}>
       <div className={styles.agentItemCard}>
@@ -15,5 +15,3 @@ const AgentItem = ({ agent }) => {
     </Link>
   )
 }
-
-export default AgentItem;
