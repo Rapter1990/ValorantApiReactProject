@@ -18,15 +18,14 @@ Provided features.
 - theme toggle features (an ability to toggle from light mode, to dark mode)
 
 ### 🔨 How to run
-through [start.sh]()/[start.bat]()
-- `./build.sh` (for [start.sh]())
-- `./build.bat` (for [start.bat]())
-<br/>
-or
-- `git clone https://github.com/Rapter1990/ValorantApiReactProject.git`
-- `cd ValorantApiReactProject`
-- `npm install`
-- `npm start`
++ through [start.sh]()/[start.bat]()
+    - `./build.sh` (for [start.sh]())
+    - `./build.bat` (for [start.bat]())
++ or manually
+    - `git clone https://github.com/Rapter1990/ValorantApiReactProject.git`
+    - `cd ValorantApiReactProject`
+    - `npm install`
+    - `npm start`
 
 
 ### Screenshots 📷
