@@ -19,10 +19,11 @@ Provided features.
 
 ### 🔨 How to run
 through [start.sh]()/[start.bat]()
-<br/>
 - `./build.sh` (for [start.sh]())
 - `./build.bat` (for [start.bat]())
-manually:
+
+<br>
+or
 <br/>
 - `git clone https://github.com/Rapter1990/ValorantApiReactProject.git`
 - `cd ValorantApiReactProject`
