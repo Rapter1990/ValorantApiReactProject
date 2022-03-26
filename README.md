@@ -18,7 +18,7 @@ Provided features.
 - theme toggle features (an ability to toggle from light mode, to dark mode)
 
 ### 🔨 How to run
-+ through [start.sh](https://github.com/Rapter1990/ValorantApiReactProject/tree/master/project/start.sh)/[start.bat](https://github.com/Rapter1990/ValorantApiReactProject/tree/master/project/start.bat)
++ through [start.sh](https://github.com/Rapter1990/ValorantApiReactProject/blob/master/project/start.sh)/[start.bat](https://github.com/Rapter1990/ValorantApiReactProject/blob/master/project/start.bat)
     - `./start.sh` (for [start.sh]())
     - `./start.bat` (for [start.bat]())
 + or manually
@@ -29,7 +29,7 @@ Provided features.
 
 ### Screenshots 📷
 <details>
-<summary>Click here to show the screenshots of project</summary>
+<summary>Click here to show screenshots of the project</summary>
     <p> Figure 1 </p><img src ="screenshots/1.PNG">
     <p> Figure 2 </p><img src ="screenshots/2.PNG">
     <p> Figure 3 </p><img src ="screenshots/3.PNG">
